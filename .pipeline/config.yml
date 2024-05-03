@@ -1,20 +1,16 @@
 ---
 general:
-  verbose: true
-  filePath: "./Customer_from_Salesforce_to_SAP_S4_Hana"
   cpiApiServiceKeyCredentialsId: "uat-api"
   integrationFlowId: "Customer_from_Salesforce_to_SAP_S4_Hana"
 stages:
   uploadStage:
     enabled: true
-    verbose: true
   deployStage:
     enabled: true
   integrationTestStage:
     enabled: false
 steps:
   integrationArtifactUpload:
-    filePath: "./Customer_from_Salesforce_to_SAP_S4_Hana"
     packageId: "LeadtoCash"
     integrationFlowName: "Customer_from_Salesforce_to_SAP_S4_Hana"
-    verbose: true
+    filePath: "./Customer_from_Salesforce_to_SAP_S4_Hana"
