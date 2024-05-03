@@ -6,6 +6,7 @@ general:
 stages:
   uploadStage:
     enabled: true
+    verbose: true
   deployStage:
     enabled: true
   integrationTestStage:
